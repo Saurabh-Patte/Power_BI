@@ -1,0 +1,402 @@
+table Universal_TD_Data
+	lineageTag: 1056b55c-70de-4ebf-9a76-4ef792035d1d
+
+	measure RD7 = IFERROR(SUM(Universal_TD_Data[RD7_N])/SUM(Universal_TD_Data[RD_D] ),"0")
+		formatString: 0
+		lineageTag: 7231355f-c5ab-43ed-972d-1f7cd2a7ba57
+
+	column Fiscal_Year
+		dataType: string
+		lineageTag: a8e7de2e-b788-4935-b1f0-163726b2077d
+		summarizeBy: none
+		sourceColumn: Fiscal_Year
+
+		annotation SummarizationSetBy = Automatic
+
+	column Fiscal_Quarter
+		dataType: string
+		lineageTag: 9e473397-9fd1-40d0-85ed-95864f7b09a3
+		summarizeBy: none
+		sourceColumn: Fiscal_Quarter
+
+		annotation SummarizationSetBy = Automatic
+
+	column Fiscal_Week
+		dataType: string
+		lineageTag: 3f69d047-b361-4a6e-a9e9-55d6203a36de
+		summarizeBy: none
+		sourceColumn: Fiscal_Week
+
+		annotation SummarizationSetBy = Automatic
+
+	column Region
+		dataType: string
+		lineageTag: 7fbf449b-402e-4770-ad11-9a8ba21ca6c5
+		summarizeBy: none
+		sourceColumn: Region
+
+		annotation SummarizationSetBy = Automatic
+
+	column Region_New
+		dataType: string
+		lineageTag: 5b0e32fe-af27-4c1a-978d-76b8a2e9de68
+		summarizeBy: none
+		sourceColumn: Region_New
+
+		annotation SummarizationSetBy = Automatic
+
+	column SUB_RGN_DESC
+		dataType: string
+		lineageTag: bb9ce838-ff55-4476-a08b-877660af35c5
+		summarizeBy: none
+		sourceColumn: SUB_RGN_DESC
+
+		annotation SummarizationSetBy = Automatic
+
+	column Sub-Rgn-Que
+		dataType: string
+		lineageTag: 16632779-b391-4ffd-bec7-29e75e52e438
+		summarizeBy: none
+		sourceColumn: Sub-Rgn-Que
+
+		annotation SummarizationSetBy = Automatic
+
+	column Override_Address_Country
+		dataType: string
+		lineageTag: 8c6a8518-c46d-43a6-bdf4-89d0818c0fe5
+		summarizeBy: none
+		sourceColumn: Override_Address_Country
+
+		annotation SummarizationSetBy = Automatic
+
+	column SP_Name
+		dataType: string
+		lineageTag: 6656080f-a28f-47d4-943d-6b4e6853bb44
+		summarizeBy: none
+		sourceColumn: SP_Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column SP_Category
+		dataType: string
+		lineageTag: e2dd3e4d-1f22-4f38-ac2d-ce71ef7ef543
+		summarizeBy: none
+		sourceColumn: SP_Category
+
+		annotation SummarizationSetBy = Automatic
+
+	column Branch_Name
+		dataType: string
+		lineageTag: 82e68de1-18c5-4db2-9b48-6f3847b1d702
+		summarizeBy: none
+		sourceColumn: Branch_Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column Cust_Grp
+		dataType: string
+		lineageTag: 8bbf685b-d61c-45da-8336-1bd506dcc562
+		summarizeBy: none
+		sourceColumn: Cust_Grp
+
+		annotation SummarizationSetBy = Automatic
+
+	column Work_Order_Code
+		dataType: string
+		lineageTag: 82251f0a-f356-466f-89ec-b73aba65a82e
+		summarizeBy: none
+		sourceColumn: Work_Order_Code
+
+		annotation SummarizationSetBy = Automatic
+
+	column Request_Onsite_Technician
+		dataType: string
+		lineageTag: 2daffc7c-56d7-439d-bcd1-5d92e6c2b58c
+		summarizeBy: none
+		sourceColumn: Request_Onsite_Technician
+
+		annotation SummarizationSetBy = Automatic
+
+	column DPS_Number
+		dataType: string
+		lineageTag: 48365e68-15e2-43fd-85d8-1eff4cb3393f
+		summarizeBy: none
+		sourceColumn: DPS_Number
+
+		annotation SummarizationSetBy = Automatic
+
+	column Service_Tag
+		dataType: string
+		lineageTag: 0436a664-79a9-4c03-a3d7-cd3be7d02091
+		summarizeBy: none
+		sourceColumn: Service_Tag
+
+		annotation SummarizationSetBy = Automatic
+
+	column Product_Channel
+		dataType: string
+		lineageTag: 37a6c8b5-9397-4b92-b170-21b98bde2361
+		summarizeBy: none
+		sourceColumn: Product_Channel
+
+		annotation SummarizationSetBy = Automatic
+
+	column LOB
+		dataType: string
+		lineageTag: 0fc3c035-ca86-4c78-8ced-3ee51ef115a7
+		summarizeBy: none
+		sourceColumn: LOB
+
+		annotation SummarizationSetBy = Automatic
+
+	column Model_Name
+		dataType: string
+		lineageTag: 5b4354f2-21cb-4372-a882-9cf60a06d93b
+		summarizeBy: none
+		sourceColumn: Model_Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column Warranty_Type
+		dataType: string
+		lineageTag: ddaf0d9a-340f-4ebe-8f1b-4c39766cb3ff
+		summarizeBy: none
+		sourceColumn: Warranty_Type
+
+		annotation SummarizationSetBy = Automatic
+
+	column DPS_Vol
+		dataType: double
+		lineageTag: ab790e06-8150-4fb2-bdc2-e9041bbab9a4
+		summarizeBy: sum
+		sourceColumn: DPS_Vol
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column SR_Vol
+		dataType: double
+		lineageTag: 2d9a53e0-ef6b-4e03-943c-77b9ada19525
+		summarizeBy: sum
+		sourceColumn: SR_Vol
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Denial
+		dataType: double
+		lineageTag: 96ecf842-24ca-47a1-8404-c18d6fb75f0e
+		summarizeBy: sum
+		sourceColumn: Denial
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Parts_List_Descriptions
+		dataType: string
+		lineageTag: 5a2a04bb-691c-4d75-b21b-653e683dbf4c
+		summarizeBy: none
+		sourceColumn: Parts_List_Descriptions
+
+		annotation SummarizationSetBy = Automatic
+
+	column PPD_N
+		dataType: string
+		lineageTag: 7dc05af1-5df8-4871-919d-de386ce5d8e9
+		summarizeBy: none
+		sourceColumn: PPD_N
+
+		annotation SummarizationSetBy = Automatic
+
+	column PPD_D
+		dataType: string
+		lineageTag: ee91d23b-8b92-43fd-a30e-4aa6abf98490
+		summarizeBy: none
+		sourceColumn: PPD_D
+
+		annotation SummarizationSetBy = Automatic
+
+	column RD7_N
+		dataType: string
+		lineageTag: 097c2161-820a-46b5-af33-aa1018d28e2c
+		summarizeBy: none
+		sourceColumn: RD7_N
+
+		annotation SummarizationSetBy = Automatic
+
+	column RD_D
+		dataType: string
+		lineageTag: 60ced4c0-4ffc-4bf3-a51d-57c20aaf0b98
+		summarizeBy: none
+		sourceColumn: RD_D
+
+		annotation SummarizationSetBy = Automatic
+
+	column RD28_N
+		dataType: string
+		lineageTag: f9808a9f-4c5d-477b-8194-f477d21ed4be
+		summarizeBy: none
+		sourceColumn: RD28_N
+
+		annotation SummarizationSetBy = Automatic
+
+	column AD_Flg
+		dataType: string
+		lineageTag: cd39cfa5-ce5b-4496-a83c-635db23fc697
+		summarizeBy: none
+		sourceColumn: AD_Flg
+
+		annotation SummarizationSetBy = Automatic
+
+	column Depot_Flg
+		dataType: string
+		lineageTag: 8d8a6ae4-8c23-4121-a2ea-3a6abbf7854e
+		summarizeBy: none
+		sourceColumn: Depot_Flg
+
+		annotation SummarizationSetBy = Automatic
+
+	column GSD_Tower_New
+		dataType: string
+		lineageTag: 7b1faf2d-d927-4f2e-a8d9-3238cf8c1923
+		summarizeBy: none
+		sourceColumn: GSD_Tower_New
+
+		annotation SummarizationSetBy = Automatic
+
+	column Parts_List_Numbers
+		dataType: string
+		lineageTag: 0da12e8a-825e-47de-8751-e1cc12b14bf6
+		summarizeBy: none
+		sourceColumn: Parts_List_Numbers
+
+		annotation SummarizationSetBy = Automatic
+
+	column GSD_Tower_New_1
+		dataType: string
+		lineageTag: d16e63bd-dd5a-4f78-9167-3636f5db8d6d
+		summarizeBy: none
+		sourceColumn: GSD_Tower_New_1
+
+		annotation SummarizationSetBy = Automatic
+
+	column SVC_ACTN_CD
+		dataType: string
+		lineageTag: 6c81a168-b48c-48aa-81cc-15bcb1374709
+		summarizeBy: none
+		sourceColumn: SVC_ACTN_CD
+
+		annotation SummarizationSetBy = Automatic
+
+	column SVC_LVL_CD
+		dataType: string
+		lineageTag: aceca49c-03e0-4b3a-9f0e-920f0ae46736
+		summarizeBy: none
+		sourceColumn: SVC_LVL_CD
+
+		annotation SummarizationSetBy = Automatic
+
+	column SVC_LVL_DESC
+		dataType: string
+		lineageTag: 89e094e7-a6a3-4b6c-9f5f-6bd94a445b83
+		summarizeBy: none
+		sourceColumn: SVC_LVL_DESC
+
+		annotation SummarizationSetBy = Automatic
+
+	column CRU_Flg
+		dataType: string
+		lineageTag: 7418b717-798b-4a5d-9dd1-54ac761f9313
+		summarizeBy: none
+		sourceColumn: CRU_Flg
+
+		annotation SummarizationSetBy = Automatic
+
+	column Auto_Manual_flg_New
+		dataType: string
+		lineageTag: 182c6c0b-dd3d-4bbd-947a-4936310c0e98
+		summarizeBy: none
+		sourceColumn: Auto_Manual_flg_New
+
+		annotation SummarizationSetBy = Automatic
+
+	column MAJ_PART_CNT
+		dataType: string
+		lineageTag: df277c5f-8a99-4912-a5c8-6e361556ec36
+		summarizeBy: none
+		sourceColumn: MAJ_PART_CNT
+
+		annotation SummarizationSetBy = Automatic
+
+	column New_CID_QTY
+		dataType: string
+		lineageTag: 87814b36-8a74-4ef5-b547-3d8fa0976226
+		summarizeBy: none
+		sourceColumn: New_CID_QTY
+
+		annotation SummarizationSetBy = Automatic
+
+	column New_NFF_QTY
+		dataType: string
+		lineageTag: a6481a51-0b4d-46ce-a7ce-eca51e0e92ab
+		summarizeBy: none
+		sourceColumn: New_NFF_QTY
+
+		annotation SummarizationSetBy = Automatic
+
+	column New_OTH_QTY
+		dataType: string
+		lineageTag: a546f535-302c-4c3e-8f1a-639af25de77e
+		summarizeBy: none
+		sourceColumn: New_OTH_QTY
+
+		annotation SummarizationSetBy = Automatic
+
+	column New_VFF_QTY
+		dataType: string
+		lineageTag: da54dd68-74ac-498e-936f-db31a1fc3db5
+		summarizeBy: none
+		sourceColumn: New_VFF_QTY
+
+		annotation SummarizationSetBy = Automatic
+
+	column VFIR_QTY
+		dataType: string
+		lineageTag: 257bdb22-607f-4ede-849a-8170c521da6e
+		summarizeBy: none
+		sourceColumn: VFIR_QTY
+
+		annotation SummarizationSetBy = Automatic
+
+	column VFIR_D
+		dataType: double
+		lineageTag: b1399d75-0fa4-4b69-949f-f1aa74fd056d
+		summarizeBy: sum
+		sourceColumn: VFIR_D
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Approved_Rework_flg
+		dataType: string
+		lineageTag: 334c9ea1-17c1-441d-9abd-32e7c07f79ec
+		summarizeBy: none
+		sourceColumn: Approved_Rework_flg
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Universal_TD_Data = m
+		mode: import
+		source =
+				let
+				    Source = Sql.Database("saurabh-pc", "MY_Analytics"),
+				    dbo_Universal_TD_Data = Source{[Schema="dbo",Item="Universal_TD_Data"]}[Data]
+				in
+				    dbo_Universal_TD_Data
+
+	annotation PBI_ResultType = Table
+

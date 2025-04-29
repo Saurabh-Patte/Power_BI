@@ -1,0 +1,56 @@
+table AdventureWorks_Returns
+	lineageTag: 9e2479bc-dd21-447e-b2d9-d187bf5ec774
+	sourceLineageTag: [dbo].[AdventureWorks_Returns]
+
+	column ReturnDate
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 7e98e22e-7aa3-4898-b592-a05cc2bd00ae
+		sourceLineageTag: ReturnDate
+		summarizeBy: none
+		sourceColumn: ReturnDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column TerritoryKey
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: 1d7238be-537d-4729-a8e6-4be3a28fc07f
+		sourceLineageTag: TerritoryKey
+		summarizeBy: count
+		sourceColumn: TerritoryKey
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProductKey
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: 424a6434-6cdf-43ff-97b0-2eed205458d4
+		sourceLineageTag: ProductKey
+		summarizeBy: count
+		sourceColumn: ProductKey
+
+		annotation SummarizationSetBy = Automatic
+
+	column ReturnQuantity
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: e4fdebe6-9e3d-46e2-bdec-cc08abaf97b2
+		sourceLineageTag: ReturnQuantity
+		summarizeBy: sum
+		sourceColumn: ReturnQuantity
+
+		annotation SummarizationSetBy = Automatic
+
+	partition AdventureWorks_Returns = entity
+		mode: directLake
+		source
+			entityName: AdventureWorks_Returns
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+
