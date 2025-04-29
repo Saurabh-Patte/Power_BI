@@ -1,0 +1,23 @@
+table AdventureWorks_Calendar
+	lineageTag: 10de2994-f3ef-4ec7-a5b3-b4783157411b
+	sourceLineageTag: [dbo].[AdventureWorks_Calendar]
+
+	column Column1
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: c18b5742-c65a-4065-8189-f1b46ceb045c
+		sourceLineageTag: Column1
+		summarizeBy: none
+		sourceColumn: Column1
+
+		annotation SummarizationSetBy = Automatic
+
+	partition AdventureWorks_Calendar = entity
+		mode: directLake
+		source
+			entityName: AdventureWorks_Calendar
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+

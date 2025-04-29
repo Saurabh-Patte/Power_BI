@@ -1,0 +1,8 @@
+relationship db25ef20-79ac-7761-1cc9-f38843771701
+	fromColumn: AdventureWorks_Customers.BirthDate
+	toColumn: AdventureWorks_Calendar.Column1
+
+relationship d2afed1f-f978-cd4b-b319-5dbf5dfe0557
+	fromColumn: AdventureWorks_Customers.CustomerKey
+	toColumn: AdventureWorks_Product_Categories.ProductCategoryKey
+

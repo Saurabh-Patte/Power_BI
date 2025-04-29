@@ -1,0 +1,129 @@
+table AdventureWorks_Products
+	lineageTag: 2f5fa72e-eee4-4413-bea1-c69048edfa66
+	sourceLineageTag: [dbo].[AdventureWorks_Products]
+
+	column ProductKey
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: 92474472-ac8c-4131-9711-483182a1a041
+		sourceLineageTag: ProductKey
+		summarizeBy: count
+		sourceColumn: ProductKey
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProductSubcategoryKey
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: dd3527e6-cda6-4b02-bdb7-db5b739fdc6a
+		sourceLineageTag: ProductSubcategoryKey
+		summarizeBy: count
+		sourceColumn: ProductSubcategoryKey
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProductSKU
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: c7a94604-be61-43a1-b956-1e1048ddecb8
+		sourceLineageTag: ProductSKU
+		summarizeBy: none
+		sourceColumn: ProductSKU
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProductName
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: a0d9578b-9fa8-4a7d-97b3-da746a8974ae
+		sourceLineageTag: ProductName
+		summarizeBy: none
+		sourceColumn: ProductName
+
+		annotation SummarizationSetBy = Automatic
+
+	column ModelName
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 5bd95d89-cfe0-47a3-97e3-982d7e356949
+		sourceLineageTag: ModelName
+		summarizeBy: none
+		sourceColumn: ModelName
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProductDescription
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 36f56bf2-946d-4319-97a1-d36e043d4e55
+		sourceLineageTag: ProductDescription
+		summarizeBy: none
+		sourceColumn: ProductDescription
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProductColor
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 27b372b6-ba81-41cb-9c84-e0a24eefd1b6
+		sourceLineageTag: ProductColor
+		summarizeBy: none
+		sourceColumn: ProductColor
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProductSize
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 186def39-2d5d-4d1e-b559-4ce3d3c9b1e6
+		sourceLineageTag: ProductSize
+		summarizeBy: none
+		sourceColumn: ProductSize
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProductStyle
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: a3e7db6e-fbf2-4233-9cdd-025fa95c69ed
+		sourceLineageTag: ProductStyle
+		summarizeBy: none
+		sourceColumn: ProductStyle
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProductCost
+		dataType: double
+		sourceProviderType: float
+		lineageTag: d3f92d7a-2d13-4bbe-9583-eb5d70c1aea3
+		sourceLineageTag: ProductCost
+		summarizeBy: sum
+		sourceColumn: ProductCost
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column ProductPrice
+		dataType: double
+		sourceProviderType: float
+		lineageTag: dbb22dfd-cff3-4614-a83a-421ec86f83e7
+		sourceLineageTag: ProductPrice
+		summarizeBy: sum
+		sourceColumn: ProductPrice
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition AdventureWorks_Products = entity
+		mode: directLake
+		source
+			entityName: AdventureWorks_Products
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+

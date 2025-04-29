@@ -1,0 +1,45 @@
+table AdventureWorks_Product_Subcategories
+	lineageTag: c0372138-ea34-40de-8ab8-b0dbfa595a86
+	sourceLineageTag: [dbo].[AdventureWorks_Product_Subcategories]
+
+	column ProductSubcategoryKey
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: 4159bbc2-9c4f-489e-96bd-5f61ef0d1b8f
+		sourceLineageTag: ProductSubcategoryKey
+		summarizeBy: count
+		sourceColumn: ProductSubcategoryKey
+
+		annotation SummarizationSetBy = Automatic
+
+	column SubcategoryName
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 63e0481e-cddc-45ce-a4ca-5acdb072ea67
+		sourceLineageTag: SubcategoryName
+		summarizeBy: none
+		sourceColumn: SubcategoryName
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProductCategoryKey
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: f21d03d9-b8b5-44f1-a8ec-f832a23f9784
+		sourceLineageTag: ProductCategoryKey
+		summarizeBy: count
+		sourceColumn: ProductCategoryKey
+
+		annotation SummarizationSetBy = Automatic
+
+	partition AdventureWorks_Product_Subcategories = entity
+		mode: directLake
+		source
+			entityName: AdventureWorks_Product_Subcategories
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+

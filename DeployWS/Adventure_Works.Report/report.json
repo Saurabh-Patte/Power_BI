@@ -1,0 +1,505 @@
+{
+  "config": "{\"version\":\"5.63\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"version\":\"5.63\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":0,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "publicCustomVisuals": [
+    "BBED0A4D4D8D44CE93CF2DAFADEE466C",
+    "datamap8FEE960E90FB4AF6BD5F829E8460D340",
+    "PBI_CV_CAD60C71_FAD5_4B59_A498_A7FB0DDC7A2B"
+  ],
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU10",
+            "path": "BaseThemes/CY24SU10.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "resources/barPlottyHTML3_1_OrgStore.pbiviz.json",
+            "path": "1/611c0984-8feb-4e66-8a8c-0734b1571503/ResourcePackage/BlobIdV2-b647cdd9-3edd-41b4-bc45-e735741e441c.H4qcienK-UjtPFx7.json",
+            "type": 5
+          }
+        ],
+        "name": "barPlottyHTML3_1_OrgStore",
+        "type": 3
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"60L\"}}}}}]},\"howCreated\":\"Copilot\"}",
+      "displayName": "Sales Trends Analysis",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "053d89fba8756a937726",
+      "ordinal": 2,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"5a646602821bc7d0851a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":60,\"y\":6,\"height\":40,\"width\":252,\"tabOrder\":7000,\"z\":7000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Sales Trends Analysis\",\"textStyle\":{\"fontFamily\":\"Segoe UI\",\"fontSize\":\"14pt\",\"fontWeight\":\"bold\"}}]}]}}]},\"vcObjects\":{}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 40.00,
+          "width": 252.00,
+          "x": 60.00,
+          "y": 6.00,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"5a9931107d1504ed9ac1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":10,\"height\":28,\"width\":28,\"tabOrder\":8000,\"z\":8000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjAnIGhlaWdodD0nMjAnIHZpZXdCb3g9JzAgMCAyMCAyMCcgZmlsbD0nbm9uZScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz48cGF0aCBkPSdNMTIgNC41QzEyIDMuNjcxNTcgMTEuMzI4NCAzIDEwLjUgM0g5LjVDOC42NzE1NyAzIDggMy42NzE1NyA4IDQuNVYxN0gxMlY0LjVaTTEzIDZWMTdIMTYuNUMxNi43NzYxIDE3IDE3IDE2Ljc3NjEgMTcgMTYuNVY4QzE3IDYuODk1NDMgMTYuMTA0NiA2IDE1IDZIMTNaTTUgOUg3VjE3SDMuNUMzLjIyMzg2IDE3IDMgMTYuNzc2MSAzIDE2LjVWMTFDMyA5Ljg5NTQzIDMuODk1NDMgOSA1IDlaJyBmaWxsPSd3aGl0ZScvPjwvc3ZnPgo='\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#118DFF'\"}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#118DFF'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}}}],\"padding\":[{\"properties\":{\"top\":{\"expr\":{\"Literal\":{\"Value\":\"2L\"}}},\"bottom\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}},\"left\":{\"expr\":{\"Literal\":{\"Value\":\"3L\"}}},\"right\":{\"expr\":{\"Literal\":{\"Value\":\"5L\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 28.00,
+          "width": 28.00,
+          "x": 20.00,
+          "y": 10.00,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"8a0ce22c8e4f20703389\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"height\":48,\"width\":1280,\"tabOrder\":-1000,\"z\":0}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"fill\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#A6ADC6'\"}}}}},\"preset\":{\"expr\":{\"Literal\":{\"Value\":\"'Custom'\"}}},\"shadowSpread\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"shadowBlur\":{\"expr\":{\"Literal\":{\"Value\":\"5L\"}}},\"angle\":{\"expr\":{\"Literal\":{\"Value\":\"90L\"}}},\"shadowDistance\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"85L\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E0E0E0'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 48.00,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"9282fb4e4ba9693a6917\",\"layouts\":[{\"id\":0,\"position\":{\"x\":60,\"y\":72,\"height\":92,\"width\":580,\"tabOrder\":6000,\"z\":6000}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AdventureWorks_Sales_2016\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0},\"Name\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\",\"NativeReferenceName\":\"Sum of OrderQuantity\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"accentBar\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#118DFF'\"}}}}}},\"selector\":{\"metadata\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\"}}],\"layout\":[{\"properties\":{\"maxTiles\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}},\"cellPadding\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}}}],\"label\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Semibold'\"}}}},\"selector\":{\"id\":\"default\"}}],\"spacing\":[{\"properties\":{\"verticalSpacing\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}},\"selector\":{\"id\":\"default\"}}],\"value\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20L\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Semibold'\"}}}},\"selector\":{\"id\":\"default\"}}],\"padding\":[{\"properties\":{\"paddingSelection\":{\"expr\":{\"Literal\":{\"Value\":\"'Custom'\"}}},\"topMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}},\"leftMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}},\"rightMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}},\"bottomMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"padding\":[{\"properties\":{\"top\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"bottom\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"left\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"right\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Sales Quantity Over Time'\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 92.00,
+          "width": 580.00,
+          "x": 60.00,
+          "y": 72.00,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"971d794d9b1c7568c915\",\"layouts\":[{\"id\":0,\"position\":{\"width\":576,\"height\":240,\"x\":60,\"y\":172,\"tabOrder\":4000,\"z\":4000}}],\"singleVisual\":{\"visualType\":\"areaChart\",\"projections\":{\"Category\":[{\"queryRef\":\"AdventureWorks_Sales_2016.OrderDate\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AdventureWorks_Sales_2016\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"OrderDate\"},\"Name\":\"AdventureWorks_Sales_2016.OrderDate\",\"NativeReferenceName\":\"OrderDate\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0},\"Name\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\",\"NativeReferenceName\":\"Sum of OrderQuantity\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}},\"selector\":{\"metadata\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\"}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelPosition\":{\"expr\":{\"Literal\":{\"Value\":\"'Under'\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Sales Quantity Over Time'\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 240.00,
+          "width": 576.00,
+          "x": 60.00,
+          "y": 172.00,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"b829453e69a08fd57a78\",\"layouts\":[{\"id\":0,\"position\":{\"width\":576,\"height\":240,\"x\":644,\"y\":172,\"tabOrder\":2000,\"z\":2000}}],\"singleVisual\":{\"visualType\":\"areaChart\",\"projections\":{\"Category\":[{\"queryRef\":\"AdventureWorks_Sales_2017.OrderDate\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(AdventureWorks_Sales_2017.OrderQuantity)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AdventureWorks_Sales_2017\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"OrderDate\"},\"Name\":\"AdventureWorks_Sales_2017.OrderDate\",\"NativeReferenceName\":\"OrderDate\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0},\"Name\":\"Sum(AdventureWorks_Sales_2017.OrderQuantity)\",\"NativeReferenceName\":\"Sum of OrderQuantity\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}},\"selector\":{\"metadata\":\"Sum(AdventureWorks_Sales_2017.OrderQuantity)\"}}],\"seriesLabels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"labelPosition\":{\"expr\":{\"Literal\":{\"Value\":\"'Under'\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Sales Quantity Over Time (2017)'\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 240.00,
+          "width": 576.00,
+          "x": 644.00,
+          "y": 172.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"b98462cee48bcf32555e\",\"layouts\":[{\"id\":0,\"position\":{\"width\":576,\"height\":240,\"x\":60,\"y\":420,\"tabOrder\":3000,\"z\":3000}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"AdventureWorks_Sales_2016.OrderDate\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AdventureWorks_Sales_2016\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"OrderDate\"},\"Name\":\"AdventureWorks_Sales_2016.OrderDate\",\"NativeReferenceName\":\"OrderDate\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0},\"Name\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\",\"NativeReferenceName\":\"Sum of OrderQuantity\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Monthly Sales Quantity'\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 240.00,
+          "width": 576.00,
+          "x": 60.00,
+          "y": 420.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"c062ab8d8b08bab49c34\",\"layouts\":[{\"id\":0,\"position\":{\"x\":644,\"y\":72,\"height\":92,\"width\":576,\"tabOrder\":5000,\"z\":5000}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"Sum(AdventureWorks_Sales_2017.OrderQuantity)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AdventureWorks_Sales_2017\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0},\"Name\":\"Sum(AdventureWorks_Sales_2017.OrderQuantity)\",\"NativeReferenceName\":\"Sum of OrderQuantity\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"accentBar\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#118DFF'\"}}}}}},\"selector\":{\"metadata\":\"Sum(AdventureWorks_Sales_2017.OrderQuantity)\"}}],\"layout\":[{\"properties\":{\"maxTiles\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}},\"cellPadding\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}}}],\"label\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Semibold'\"}}}},\"selector\":{\"id\":\"default\"}}],\"spacing\":[{\"properties\":{\"verticalSpacing\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}},\"selector\":{\"id\":\"default\"}}],\"value\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20L\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Semibold'\"}}}},\"selector\":{\"id\":\"default\"}}],\"padding\":[{\"properties\":{\"paddingSelection\":{\"expr\":{\"Literal\":{\"Value\":\"'Custom'\"}}},\"topMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}},\"leftMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}},\"rightMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}},\"bottomMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"padding\":[{\"properties\":{\"top\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"bottom\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"left\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"right\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Sales Quantity Over Time (2017)'\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 92.00,
+          "width": 576.00,
+          "x": 644.00,
+          "y": 72.00,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"d22607f157dd558f586f\",\"layouts\":[{\"id\":0,\"position\":{\"width\":576,\"height\":240,\"x\":644,\"y\":420,\"tabOrder\":1000,\"z\":1000}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"AdventureWorks_Sales_2017.OrderDate\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(AdventureWorks_Sales_2017.OrderQuantity)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AdventureWorks_Sales_2017\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"OrderDate\"},\"Name\":\"AdventureWorks_Sales_2017.OrderDate\",\"NativeReferenceName\":\"OrderDate\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0},\"Name\":\"Sum(AdventureWorks_Sales_2017.OrderQuantity)\",\"NativeReferenceName\":\"Sum of OrderQuantity\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Monthly Sales Quantity (2017)'\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 240.00,
+          "width": 576.00,
+          "x": 644.00,
+          "y": 420.00,
+          "z": 1000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"60L\"}}}}}]},\"howCreated\":\"Copilot\"}",
+      "displayName": "Sales Distribution Analysis",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "b088676f38fc5e154236",
+      "ordinal": 1,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"069c05e09729dfc61b53\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"height\":48,\"width\":1280,\"tabOrder\":-1000,\"z\":0}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"fill\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#A6ADC6'\"}}}}},\"preset\":{\"expr\":{\"Literal\":{\"Value\":\"'Custom'\"}}},\"shadowSpread\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"shadowBlur\":{\"expr\":{\"Literal\":{\"Value\":\"5L\"}}},\"angle\":{\"expr\":{\"Literal\":{\"Value\":\"90L\"}}},\"shadowDistance\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"85L\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E0E0E0'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 48.00,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"2c2963e4383cca9eb009\",\"layouts\":[{\"id\":0,\"position\":{\"width\":576,\"height\":240,\"x\":644,\"y\":172,\"tabOrder\":2000,\"z\":2000}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"AdventureWorks_Territories.SalesTerritoryKey\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(AdventureWorks_Sales_2017.OrderQuantity)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AdventureWorks_Territories\",\"Type\":0},{\"Name\":\"a1\",\"Entity\":\"AdventureWorks_Sales_2017\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"SalesTerritoryKey\"},\"Name\":\"AdventureWorks_Territories.SalesTerritoryKey\",\"NativeReferenceName\":\"SalesTerritoryKey\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a1\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0},\"Name\":\"Sum(AdventureWorks_Sales_2017.OrderQuantity)\",\"NativeReferenceName\":\"Sum of OrderQuantity\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a1\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Sales Quantity by Territory (2017)'\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 240.00,
+          "width": 576.00,
+          "x": 644.00,
+          "y": 172.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"3290d12855035f5ab653\",\"layouts\":[{\"id\":0,\"position\":{\"width\":576,\"height\":240,\"x\":644,\"y\":420,\"tabOrder\":1000,\"z\":1000}}],\"singleVisual\":{\"visualType\":\"azureMap\",\"projections\":{\"Size\":[{\"queryRef\":\"Sum(AdventureWorks_Sales_2017.OrderQuantity)\"}],\"Category\":[{\"queryRef\":\"AdventureWorks_Territories.Region\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AdventureWorks_Sales_2017\",\"Type\":0},{\"Name\":\"a1\",\"Entity\":\"AdventureWorks_Territories\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0},\"Name\":\"Sum(AdventureWorks_Sales_2017.OrderQuantity)\",\"NativeReferenceName\":\"Sum of OrderQuantity\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a1\"}},\"Property\":\"Region\"},\"Name\":\"AdventureWorks_Territories.Region\",\"NativeReferenceName\":\"Region\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Sales Quantity by Region (2017)'\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 240.00,
+          "width": 576.00,
+          "x": 644.00,
+          "y": 420.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"4c95244cea1e8f5ddb99\",\"layouts\":[{\"id\":0,\"position\":{\"x\":644,\"y\":72,\"height\":92,\"width\":576,\"tabOrder\":5000,\"z\":5000}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"Sum(AdventureWorks_Sales_2017.OrderQuantity)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AdventureWorks_Sales_2017\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0},\"Name\":\"Sum(AdventureWorks_Sales_2017.OrderQuantity)\",\"NativeReferenceName\":\"Sum of OrderQuantity\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"accentBar\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#118DFF'\"}}}}}},\"selector\":{\"metadata\":\"Sum(AdventureWorks_Sales_2017.OrderQuantity)\"}}],\"layout\":[{\"properties\":{\"maxTiles\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}},\"cellPadding\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}}}],\"label\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Semibold'\"}}}},\"selector\":{\"id\":\"default\"}}],\"spacing\":[{\"properties\":{\"verticalSpacing\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}},\"selector\":{\"id\":\"default\"}}],\"value\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20L\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Semibold'\"}}}},\"selector\":{\"id\":\"default\"}}],\"padding\":[{\"properties\":{\"paddingSelection\":{\"expr\":{\"Literal\":{\"Value\":\"'Custom'\"}}},\"topMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}},\"leftMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}},\"rightMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}},\"bottomMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"padding\":[{\"properties\":{\"top\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"bottom\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"left\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"right\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Sales Quantity by Territory (2017)'\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 92.00,
+          "width": 576.00,
+          "x": 644.00,
+          "y": 72.00,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"6825df53be671c366b3a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":60,\"y\":72,\"height\":92,\"width\":580,\"tabOrder\":6000,\"z\":6000}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AdventureWorks_Sales_2016\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0},\"Name\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\",\"NativeReferenceName\":\"Sum of OrderQuantity\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"accentBar\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#118DFF'\"}}}}}},\"selector\":{\"metadata\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\"}}],\"layout\":[{\"properties\":{\"maxTiles\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}},\"cellPadding\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}}}],\"label\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Semibold'\"}}}},\"selector\":{\"id\":\"default\"}}],\"spacing\":[{\"properties\":{\"verticalSpacing\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}},\"selector\":{\"id\":\"default\"}}],\"value\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20L\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Semibold'\"}}}},\"selector\":{\"id\":\"default\"}}],\"padding\":[{\"properties\":{\"paddingSelection\":{\"expr\":{\"Literal\":{\"Value\":\"'Custom'\"}}},\"topMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}},\"leftMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}},\"rightMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}},\"bottomMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"padding\":[{\"properties\":{\"top\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"bottom\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"left\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"right\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Sales Quantity by Territory'\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 92.00,
+          "width": 580.00,
+          "x": 60.00,
+          "y": 72.00,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"7d43a458474e7f4ea321\",\"layouts\":[{\"id\":0,\"position\":{\"width\":576,\"height\":240,\"x\":60,\"y\":172,\"tabOrder\":4000,\"z\":4000}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"AdventureWorks_Territories.SalesTerritoryKey\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AdventureWorks_Territories\",\"Type\":0},{\"Name\":\"a1\",\"Entity\":\"AdventureWorks_Sales_2016\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"SalesTerritoryKey\"},\"Name\":\"AdventureWorks_Territories.SalesTerritoryKey\",\"NativeReferenceName\":\"SalesTerritoryKey\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a1\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0},\"Name\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\",\"NativeReferenceName\":\"Sum of OrderQuantity\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a1\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Sales Quantity by Territory'\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 240.00,
+          "width": 576.00,
+          "x": 60.00,
+          "y": 172.00,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"b8dadc0ec90e46ace14c\",\"layouts\":[{\"id\":0,\"position\":{\"width\":576,\"height\":240,\"x\":60,\"y\":420,\"tabOrder\":3000,\"z\":3000}}],\"singleVisual\":{\"visualType\":\"azureMap\",\"projections\":{\"Size\":[{\"queryRef\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\"}],\"Category\":[{\"queryRef\":\"AdventureWorks_Territories.Region\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AdventureWorks_Sales_2016\",\"Type\":0},{\"Name\":\"a1\",\"Entity\":\"AdventureWorks_Territories\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0},\"Name\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\",\"NativeReferenceName\":\"Sum of OrderQuantity\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a1\"}},\"Property\":\"Region\"},\"Name\":\"AdventureWorks_Territories.Region\",\"NativeReferenceName\":\"Region\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}],\"heatMapLayer\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"traffic\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Sales Quantity by Region'\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 240.00,
+          "width": 576.00,
+          "x": 60.00,
+          "y": 420.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"cc53b3af4ef54ac91bab\",\"layouts\":[{\"id\":0,\"position\":{\"x\":60,\"y\":6,\"height\":40,\"width\":324,\"tabOrder\":7000,\"z\":7000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Sales Distribution Analysis\",\"textStyle\":{\"fontFamily\":\"Segoe UI\",\"fontSize\":\"14pt\",\"fontWeight\":\"bold\"}}]}]}}]},\"vcObjects\":{}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 40.00,
+          "width": 324.00,
+          "x": 60.00,
+          "y": 6.00,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"d11ab640c330ef53a00a\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":10,\"height\":28,\"width\":28,\"tabOrder\":8000,\"z\":8000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjAnIGhlaWdodD0nMjAnIHZpZXdCb3g9JzAgMCAyMCAyMCcgZmlsbD0nbm9uZScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz48cGF0aCBkPSdNMTIgNC41QzEyIDMuNjcxNTcgMTEuMzI4NCAzIDEwLjUgM0g5LjVDOC42NzE1NyAzIDggMy42NzE1NyA4IDQuNVYxN0gxMlY0LjVaTTEzIDZWMTdIMTYuNUMxNi43NzYxIDE3IDE3IDE2Ljc3NjEgMTcgMTYuNVY4QzE3IDYuODk1NDMgMTYuMTA0NiA2IDE1IDZIMTNaTTUgOUg3VjE3SDMuNUMzLjIyMzg2IDE3IDMgMTYuNzc2MSAzIDE2LjVWMTFDMyA5Ljg5NTQzIDMuODk1NDMgOSA1IDlaJyBmaWxsPSd3aGl0ZScvPjwvc3ZnPgo='\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#118DFF'\"}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#118DFF'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}}}],\"padding\":[{\"properties\":{\"top\":{\"expr\":{\"Literal\":{\"Value\":\"2L\"}}},\"bottom\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}},\"left\":{\"expr\":{\"Literal\":{\"Value\":\"3L\"}}},\"right\":{\"expr\":{\"Literal\":{\"Value\":\"5L\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 28.00,
+          "width": 28.00,
+          "x": 20.00,
+          "y": 10.00,
+          "z": 8000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"60L\"}}}}}]},\"howCreated\":\"Copilot\"}",
+      "displayName": "Customer Demographics Analysis",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "b19936bb504f9f03b2d3",
+      "ordinal": 3,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"2f8675ec9bd828bab930\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":10,\"height\":28,\"width\":28,\"tabOrder\":5000,\"z\":5000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjAnIGhlaWdodD0nMjAnIHZpZXdCb3g9JzAgMCAyMCAyMCcgZmlsbD0nbm9uZScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz48cGF0aCBkPSdNMTIgNC41QzEyIDMuNjcxNTcgMTEuMzI4NCAzIDEwLjUgM0g5LjVDOC42NzE1NyAzIDggMy42NzE1NyA4IDQuNVYxN0gxMlY0LjVaTTEzIDZWMTdIMTYuNUMxNi43NzYxIDE3IDE3IDE2Ljc3NjEgMTcgMTYuNVY4QzE3IDYuODk1NDMgMTYuMTA0NiA2IDE1IDZIMTNaTTUgOUg3VjE3SDMuNUMzLjIyMzg2IDE3IDMgMTYuNzc2MSAzIDE2LjVWMTFDMyA5Ljg5NTQzIDMuODk1NDMgOSA1IDlaJyBmaWxsPSd3aGl0ZScvPjwvc3ZnPgo='\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#118DFF'\"}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#118DFF'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}}}],\"padding\":[{\"properties\":{\"top\":{\"expr\":{\"Literal\":{\"Value\":\"2L\"}}},\"bottom\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}},\"left\":{\"expr\":{\"Literal\":{\"Value\":\"3L\"}}},\"right\":{\"expr\":{\"Literal\":{\"Value\":\"5L\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 28.00,
+          "width": 28.00,
+          "x": 20.00,
+          "y": 10.00,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"68a67cd89df72f8d75c0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"height\":48,\"width\":1280,\"tabOrder\":-1000,\"z\":0}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"fill\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#A6ADC6'\"}}}}},\"preset\":{\"expr\":{\"Literal\":{\"Value\":\"'Custom'\"}}},\"shadowSpread\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"shadowBlur\":{\"expr\":{\"Literal\":{\"Value\":\"5L\"}}},\"angle\":{\"expr\":{\"Literal\":{\"Value\":\"90L\"}}},\"shadowDistance\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"85L\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E0E0E0'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 48.00,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"740136d07d2df8a373fa\",\"layouts\":[{\"id\":0,\"position\":{\"x\":60,\"y\":6,\"height\":40,\"width\":360,\"tabOrder\":4000,\"z\":4000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Customer Demographics Analysis\",\"textStyle\":{\"fontFamily\":\"Segoe UI\",\"fontSize\":\"14pt\",\"fontWeight\":\"bold\"}}]}]}}]},\"vcObjects\":{}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 40.00,
+          "width": 360.00,
+          "x": 60.00,
+          "y": 6.00,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"8b4b848e22035c5a5ade\",\"layouts\":[{\"id\":0,\"position\":{\"width\":1160,\"height\":240,\"x\":60,\"y\":420,\"tabOrder\":1000,\"z\":1000}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Category\":[{\"queryRef\":\"AdventureWorks_Customers.MaritalStatus\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(AdventureWorks_Customers.CustomerKey)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AdventureWorks_Customers\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"MaritalStatus\"},\"Name\":\"AdventureWorks_Customers.MaritalStatus\",\"NativeReferenceName\":\"MaritalStatus\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"CustomerKey\"}},\"Function\":5},\"Name\":\"CountNonNull(AdventureWorks_Customers.CustomerKey)\",\"NativeReferenceName\":\"Count of CustomerKey\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"CustomerKey\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Customers by Marital Status'\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 240.00,
+          "width": 1160.00,
+          "x": 60.00,
+          "y": 420.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"960a73f9b45a805e14c4\",\"layouts\":[{\"id\":0,\"position\":{\"x\":60,\"y\":72,\"height\":92,\"width\":1160,\"tabOrder\":3000,\"z\":3000}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"CountNonNull(AdventureWorks_Customers.CustomerKey)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AdventureWorks_Customers\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"CustomerKey\"}},\"Function\":5},\"Name\":\"CountNonNull(AdventureWorks_Customers.CustomerKey)\",\"NativeReferenceName\":\"Count of CustomerKey\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"CustomerKey\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"accentBar\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#118DFF'\"}}}}}},\"selector\":{\"metadata\":\"CountNonNull(AdventureWorks_Customers.CustomerKey)\"}}],\"layout\":[{\"properties\":{\"maxTiles\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}},\"cellPadding\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}}}],\"label\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Semibold'\"}}}},\"selector\":{\"id\":\"default\"}}],\"spacing\":[{\"properties\":{\"verticalSpacing\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}},\"selector\":{\"id\":\"default\"}}],\"value\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20L\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Semibold'\"}}}},\"selector\":{\"id\":\"default\"}}],\"padding\":[{\"properties\":{\"paddingSelection\":{\"expr\":{\"Literal\":{\"Value\":\"'Custom'\"}}},\"topMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}},\"leftMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}},\"rightMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}},\"bottomMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"padding\":[{\"properties\":{\"top\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"bottom\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"left\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"right\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Customers'\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 92.00,
+          "width": 1160.00,
+          "x": 60.00,
+          "y": 72.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"b455dd39c0ef422fe326\",\"layouts\":[{\"id\":0,\"position\":{\"width\":1160,\"height\":240,\"x\":60,\"y\":172,\"tabOrder\":2000,\"z\":2000}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"AdventureWorks_Customers.Gender\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(AdventureWorks_Customers.CustomerKey)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AdventureWorks_Customers\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Gender\"},\"Name\":\"AdventureWorks_Customers.Gender\",\"NativeReferenceName\":\"Gender\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"CustomerKey\"}},\"Function\":5},\"Name\":\"CountNonNull(AdventureWorks_Customers.CustomerKey)\",\"NativeReferenceName\":\"Count of CustomerKey\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"CustomerKey\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Customers by Gender'\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 240.00,
+          "width": 1160.00,
+          "x": 60.00,
+          "y": 172.00,
+          "z": 2000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"60L\"}}}}}]},\"howCreated\":\"Copilot\"}",
+      "displayName": "Product Performance Analysis",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "c0288a50819203a34af7",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"1a9ae0660598820e92d6\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"height\":48,\"width\":1280,\"tabOrder\":-1000,\"z\":0}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"fill\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#A6ADC6'\"}}}}},\"preset\":{\"expr\":{\"Literal\":{\"Value\":\"'Custom'\"}}},\"shadowSpread\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"shadowBlur\":{\"expr\":{\"Literal\":{\"Value\":\"5L\"}}},\"angle\":{\"expr\":{\"Literal\":{\"Value\":\"90L\"}}},\"shadowDistance\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"85L\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E0E0E0'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 48.00,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"32b02e403166c0d7ecec\",\"layouts\":[{\"id\":0,\"position\":{\"width\":576,\"height\":240,\"x\":60,\"y\":172,\"tabOrder\":4000,\"z\":4000}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"AdventureWorks_Products.ProductName\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AdventureWorks_Products\",\"Type\":0},{\"Name\":\"a1\",\"Entity\":\"AdventureWorks_Sales_2016\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"ProductName\"},\"Name\":\"AdventureWorks_Products.ProductName\",\"NativeReferenceName\":\"ProductName\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a1\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0},\"Name\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\",\"NativeReferenceName\":\"Sum of OrderQuantity\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a1\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Sales Quantity by Product'\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 240.00,
+          "width": 576.00,
+          "x": 60.00,
+          "y": 172.00,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"42fc67acdf6d7fbac0d5\",\"layouts\":[{\"id\":0,\"position\":{\"x\":60,\"y\":6,\"height\":40,\"width\":336,\"tabOrder\":7000,\"z\":7000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Product Performance Analysis\",\"textStyle\":{\"fontFamily\":\"Segoe UI\",\"fontSize\":\"14pt\",\"fontWeight\":\"bold\"}}]}]}}]},\"vcObjects\":{}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 40.00,
+          "width": 336.00,
+          "x": 60.00,
+          "y": 6.00,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"6a1c8b763f85e2465901\",\"layouts\":[{\"id\":0,\"position\":{\"width\":576,\"height\":240,\"x\":60,\"y\":420,\"tabOrder\":3000,\"z\":3000}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Category\":[{\"queryRef\":\"AdventureWorks_Product_Categories.CategoryName\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AdventureWorks_Product_Categories\",\"Type\":0},{\"Name\":\"a1\",\"Entity\":\"AdventureWorks_Sales_2016\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"CategoryName\"},\"Name\":\"AdventureWorks_Product_Categories.CategoryName\",\"NativeReferenceName\":\"CategoryName\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a1\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0},\"Name\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\",\"NativeReferenceName\":\"Sum of OrderQuantity\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a1\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Sales Quantity by Product Category'\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 240.00,
+          "width": 576.00,
+          "x": 60.00,
+          "y": 420.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"6e56359c4b3dade89c63\",\"layouts\":[{\"id\":0,\"position\":{\"width\":576,\"height\":240,\"x\":644,\"y\":172,\"tabOrder\":2000,\"z\":2000}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"AdventureWorks_Products.ProductName\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(AdventureWorks_Sales_2017.OrderQuantity)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AdventureWorks_Products\",\"Type\":0},{\"Name\":\"a1\",\"Entity\":\"AdventureWorks_Sales_2017\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"ProductName\"},\"Name\":\"AdventureWorks_Products.ProductName\",\"NativeReferenceName\":\"ProductName\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a1\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0},\"Name\":\"Sum(AdventureWorks_Sales_2017.OrderQuantity)\",\"NativeReferenceName\":\"Sum of OrderQuantity\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a1\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"enableTitleDataLabel\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}},\"optimizeLabelDisplay\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Sales Quantity by Product (2017)'\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 240.00,
+          "width": 576.00,
+          "x": 644.00,
+          "y": 172.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"7ab03f1c83abb637ae18\",\"layouts\":[{\"id\":0,\"position\":{\"x\":644,\"y\":72,\"height\":92,\"width\":576,\"tabOrder\":5000,\"z\":5000}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"Sum(AdventureWorks_Sales_2017.OrderQuantity)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AdventureWorks_Sales_2017\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0},\"Name\":\"Sum(AdventureWorks_Sales_2017.OrderQuantity)\",\"NativeReferenceName\":\"Sum of OrderQuantity\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"accentBar\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#118DFF'\"}}}}}},\"selector\":{\"metadata\":\"Sum(AdventureWorks_Sales_2017.OrderQuantity)\"}}],\"layout\":[{\"properties\":{\"maxTiles\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}},\"cellPadding\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}}}],\"label\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Semibold'\"}}}},\"selector\":{\"id\":\"default\"}}],\"spacing\":[{\"properties\":{\"verticalSpacing\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}},\"selector\":{\"id\":\"default\"}}],\"value\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20L\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Semibold'\"}}}},\"selector\":{\"id\":\"default\"}}],\"padding\":[{\"properties\":{\"paddingSelection\":{\"expr\":{\"Literal\":{\"Value\":\"'Custom'\"}}},\"topMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}},\"leftMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}},\"rightMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}},\"bottomMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"padding\":[{\"properties\":{\"top\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"bottom\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"left\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"right\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Sales Quantity (2017)'\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 92.00,
+          "width": 576.00,
+          "x": 644.00,
+          "y": 72.00,
+          "z": 5000.00
+        },
+        {
+          "config": "{\"name\":\"945c3b7a09baab0c4472\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":10,\"height\":28,\"width\":28,\"tabOrder\":8000,\"z\":8000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjAnIGhlaWdodD0nMjAnIHZpZXdCb3g9JzAgMCAyMCAyMCcgZmlsbD0nbm9uZScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz48cGF0aCBkPSdNMTIgNC41QzEyIDMuNjcxNTcgMTEuMzI4NCAzIDEwLjUgM0g5LjVDOC42NzE1NyAzIDggMy42NzE1NyA4IDQuNVYxN0gxMlY0LjVaTTEzIDZWMTdIMTYuNUMxNi43NzYxIDE3IDE3IDE2Ljc3NjEgMTcgMTYuNVY4QzE3IDYuODk1NDMgMTYuMTA0NiA2IDE1IDZIMTNaTTUgOUg3VjE3SDMuNUMzLjIyMzg2IDE3IDMgMTYuNzc2MSAzIDE2LjVWMTFDMyA5Ljg5NTQzIDMuODk1NDMgOSA1IDlaJyBmaWxsPSd3aGl0ZScvPjwvc3ZnPgo='\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#118DFF'\"}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#118DFF'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}}}],\"padding\":[{\"properties\":{\"top\":{\"expr\":{\"Literal\":{\"Value\":\"2L\"}}},\"bottom\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}},\"left\":{\"expr\":{\"Literal\":{\"Value\":\"3L\"}}},\"right\":{\"expr\":{\"Literal\":{\"Value\":\"5L\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 28.00,
+          "width": 28.00,
+          "x": 20.00,
+          "y": 10.00,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"b23cd327f8097ecc3a8c\",\"layouts\":[{\"id\":0,\"position\":{\"width\":576,\"height\":240,\"x\":644,\"y\":420,\"tabOrder\":1000,\"z\":1000}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Category\":[{\"queryRef\":\"AdventureWorks_Product_Categories.CategoryName\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(AdventureWorks_Sales_2017.OrderQuantity)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AdventureWorks_Product_Categories\",\"Type\":0},{\"Name\":\"a1\",\"Entity\":\"AdventureWorks_Sales_2017\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"CategoryName\"},\"Name\":\"AdventureWorks_Product_Categories.CategoryName\",\"NativeReferenceName\":\"CategoryName\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a1\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0},\"Name\":\"Sum(AdventureWorks_Sales_2017.OrderQuantity)\",\"NativeReferenceName\":\"Sum of OrderQuantity\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a1\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Sales Quantity by Product Category (2017)'\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 240.00,
+          "width": 576.00,
+          "x": 644.00,
+          "y": 420.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"d3886622b474dbe1bb25\",\"layouts\":[{\"id\":0,\"position\":{\"x\":60,\"y\":72,\"height\":92,\"width\":580,\"tabOrder\":6000,\"z\":6000}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AdventureWorks_Sales_2016\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0},\"Name\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\",\"NativeReferenceName\":\"Sum of OrderQuantity\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"accentBar\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#118DFF'\"}}}}}},\"selector\":{\"metadata\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\"}}],\"layout\":[{\"properties\":{\"maxTiles\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}},\"cellPadding\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}}}],\"label\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Semibold'\"}}}},\"selector\":{\"id\":\"default\"}}],\"spacing\":[{\"properties\":{\"verticalSpacing\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}},\"selector\":{\"id\":\"default\"}}],\"value\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20L\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Semibold'\"}}}},\"selector\":{\"id\":\"default\"}}],\"padding\":[{\"properties\":{\"paddingSelection\":{\"expr\":{\"Literal\":{\"Value\":\"'Custom'\"}}},\"topMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}},\"leftMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}},\"rightMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}},\"bottomMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"padding\":[{\"properties\":{\"top\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"bottom\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"left\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"right\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Sales Quantity'\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 92.00,
+          "width": 580.00,
+          "x": 60.00,
+          "y": 72.00,
+          "z": 6000.00
+        }
+      ],
+      "width": 1280.00
+    },
+    {
+      "config": "{\"objects\":{\"background\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#FFFFFF'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"60L\"}}}}}]},\"howCreated\":\"Copilot\"}",
+      "displayName": "Comprehensive Analysis",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "e0773cc6b3a0c86fcaa6",
+      "ordinal": 4,
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"152266b65f5e71b749eb\",\"layouts\":[{\"id\":0,\"position\":{\"width\":381,\"height\":240,\"x\":449,\"y\":420,\"tabOrder\":4000,\"z\":4000}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"AdventureWorks_Customers.Gender\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(AdventureWorks_Customers.CustomerKey)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AdventureWorks_Customers\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"Gender\"},\"Name\":\"AdventureWorks_Customers.Gender\",\"NativeReferenceName\":\"Gender\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"CustomerKey\"}},\"Function\":5},\"Name\":\"CountNonNull(AdventureWorks_Customers.CustomerKey)\",\"NativeReferenceName\":\"Count of CustomerKey\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"CustomerKey\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Customers by Gender'\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 240.00,
+          "width": 381.00,
+          "x": 449.00,
+          "y": 420.00,
+          "z": 4000.00
+        },
+        {
+          "config": "{\"name\":\"23370ad4956d09e9cb20\",\"layouts\":[{\"id\":0,\"position\":{\"width\":284,\"height\":240,\"x\":644,\"y\":172,\"tabOrder\":3000,\"z\":3000}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Category\":[{\"queryRef\":\"AdventureWorks_Customers.MaritalStatus\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(AdventureWorks_Customers.CustomerKey)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AdventureWorks_Customers\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"MaritalStatus\"},\"Name\":\"AdventureWorks_Customers.MaritalStatus\",\"NativeReferenceName\":\"MaritalStatus\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"CustomerKey\"}},\"Function\":5},\"Name\":\"CountNonNull(AdventureWorks_Customers.CustomerKey)\",\"NativeReferenceName\":\"Count of CustomerKey\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"CustomerKey\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Customers by Marital Status'\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 240.00,
+          "width": 284.00,
+          "x": 644.00,
+          "y": 172.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"2e265cf4db4fcbfcd1d9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":644,\"y\":72,\"height\":92,\"width\":576,\"tabOrder\":8000,\"z\":8000}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"CountNonNull(AdventureWorks_Customers.CustomerKey)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AdventureWorks_Customers\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"CustomerKey\"}},\"Function\":5},\"Name\":\"CountNonNull(AdventureWorks_Customers.CustomerKey)\",\"NativeReferenceName\":\"Count of CustomerKey\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"CustomerKey\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"accentBar\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#118DFF'\"}}}}}},\"selector\":{\"metadata\":\"CountNonNull(AdventureWorks_Customers.CustomerKey)\"}}],\"layout\":[{\"properties\":{\"maxTiles\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}},\"cellPadding\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}}}],\"label\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Semibold'\"}}}},\"selector\":{\"id\":\"default\"}}],\"spacing\":[{\"properties\":{\"verticalSpacing\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}},\"selector\":{\"id\":\"default\"}}],\"value\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20L\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Semibold'\"}}}},\"selector\":{\"id\":\"default\"}}],\"padding\":[{\"properties\":{\"paddingSelection\":{\"expr\":{\"Literal\":{\"Value\":\"'Custom'\"}}},\"topMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}},\"leftMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}},\"rightMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}},\"bottomMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"padding\":[{\"properties\":{\"top\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"bottom\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"left\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"right\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Customers'\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 92.00,
+          "width": 576.00,
+          "x": 644.00,
+          "y": 72.00,
+          "z": 8000.00
+        },
+        {
+          "config": "{\"name\":\"36ffb76645a09a9d9829\",\"layouts\":[{\"id\":0,\"position\":{\"x\":60,\"y\":6,\"height\":40,\"width\":264,\"tabOrder\":10000,\"z\":10000}}],\"singleVisual\":{\"visualType\":\"textbox\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"paragraphs\":[{\"textRuns\":[{\"value\":\"Comprehensive Analysis\",\"textStyle\":{\"fontFamily\":\"Segoe UI\",\"fontSize\":\"14pt\",\"fontWeight\":\"bold\"}}]}]}}]},\"vcObjects\":{}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 40.00,
+          "width": 264.00,
+          "x": 60.00,
+          "y": 6.00,
+          "z": 10000.00
+        },
+        {
+          "config": "{\"name\":\"77e523c18d33911ab413\",\"layouts\":[{\"id\":0,\"position\":{\"x\":20,\"y\":10,\"height\":28,\"width\":28,\"tabOrder\":11000,\"z\":11000}}],\"singleVisual\":{\"visualType\":\"image\",\"drillFilterOtherVisuals\":true,\"objects\":{\"general\":[{\"properties\":{\"imageUrl\":{\"expr\":{\"Literal\":{\"Value\":\"'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0nMjAnIGhlaWdodD0nMjAnIHZpZXdCb3g9JzAgMCAyMCAyMCcgZmlsbD0nbm9uZScgeG1sbnM9J2h0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnJz48cGF0aCBkPSdNMTIgNC41QzEyIDMuNjcxNTcgMTEuMzI4NCAzIDEwLjUgM0g5LjVDOC42NzE1NyAzIDggMy42NzE1NyA4IDQuNVYxN0gxMlY0LjVaTTEzIDZWMTdIMTYuNUMxNi43NzYxIDE3IDE3IDE2Ljc3NjEgMTcgMTYuNVY4QzE3IDYuODk1NDMgMTYuMTA0NiA2IDE1IDZIMTNaTTUgOUg3VjE3SDMuNUMzLjIyMzg2IDE3IDMgMTYuNzc2MSAzIDE2LjVWMTFDMyA5Ljg5NTQzIDMuODk1NDMgOSA1IDlaJyBmaWxsPSd3aGl0ZScvPjwvc3ZnPgo='\"}}}}}]},\"vcObjects\":{\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#118DFF'\"}}}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#118DFF'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}}}],\"padding\":[{\"properties\":{\"top\":{\"expr\":{\"Literal\":{\"Value\":\"2L\"}}},\"bottom\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}},\"left\":{\"expr\":{\"Literal\":{\"Value\":\"3L\"}}},\"right\":{\"expr\":{\"Literal\":{\"Value\":\"5L\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 28.00,
+          "width": 28.00,
+          "x": 20.00,
+          "y": 10.00,
+          "z": 11000.00
+        },
+        {
+          "config": "{\"name\":\"8a25fb177e8aacd4cee9\",\"layouts\":[{\"id\":0,\"position\":{\"width\":284,\"height\":240,\"x\":60,\"y\":172,\"tabOrder\":7000,\"z\":7000}}],\"singleVisual\":{\"visualType\":\"areaChart\",\"projections\":{\"Category\":[{\"queryRef\":\"AdventureWorks_Sales_2016.OrderDate\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AdventureWorks_Sales_2016\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"OrderDate\"},\"Name\":\"AdventureWorks_Sales_2016.OrderDate\",\"NativeReferenceName\":\"OrderDate\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0},\"Name\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\",\"NativeReferenceName\":\"Sum of OrderQuantity\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}},\"selector\":{\"metadata\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\"}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Sales Quantity Over Time'\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 240.00,
+          "width": 284.00,
+          "x": 60.00,
+          "y": 172.00,
+          "z": 7000.00
+        },
+        {
+          "config": "{\"name\":\"9eb9a76c6d1c448315b8\",\"layouts\":[{\"id\":0,\"position\":{\"x\":830,\"y\":468.75,\"z\":2000,\"width\":381.25,\"height\":240,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"AdventureWorks_Territories.SalesTerritoryKey\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AdventureWorks_Territories\",\"Type\":0},{\"Name\":\"a1\",\"Entity\":\"AdventureWorks_Sales_2016\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"SalesTerritoryKey\"},\"Name\":\"AdventureWorks_Territories.SalesTerritoryKey\",\"NativeReferenceName\":\"SalesTerritoryKey\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a1\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0},\"Name\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\",\"NativeReferenceName\":\"Sum of OrderQuantity\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a1\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Sales Quantity by Territory'\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 240.00,
+          "width": 381.25,
+          "x": 830.00,
+          "y": 468.75,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"a0114a9d91c0caafb53e\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":0,\"height\":48,\"width\":1280,\"tabOrder\":-1000,\"z\":0}}],\"singleVisual\":{\"visualType\":\"shape\",\"drillFilterOtherVisuals\":true,\"objects\":{\"fill\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"outline\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]},\"vcObjects\":{\"dropShadow\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#A6ADC6'\"}}}}},\"preset\":{\"expr\":{\"Literal\":{\"Value\":\"'Custom'\"}}},\"shadowSpread\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"shadowBlur\":{\"expr\":{\"Literal\":{\"Value\":\"5L\"}}},\"angle\":{\"expr\":{\"Literal\":{\"Value\":\"90L\"}}},\"shadowDistance\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"85L\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}],\"border\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#E0E0E0'\"}}}}},\"radius\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 48.00,
+          "width": 1280.00,
+          "x": 0.00,
+          "y": 0.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"b0871e539cc62a42a9fc\",\"layouts\":[{\"id\":0,\"position\":{\"x\":60,\"y\":72,\"height\":92,\"width\":580,\"tabOrder\":9000,\"z\":9000}}],\"singleVisual\":{\"visualType\":\"cardVisual\",\"projections\":{\"Data\":[{\"queryRef\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AdventureWorks_Sales_2016\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0},\"Name\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\",\"NativeReferenceName\":\"Sum of OrderQuantity\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"accentBar\":[{\"properties\":{\"color\":{\"solid\":{\"color\":{\"expr\":{\"Literal\":{\"Value\":\"'#118DFF'\"}}}}}},\"selector\":{\"metadata\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\"}}],\"layout\":[{\"properties\":{\"maxTiles\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}},\"cellPadding\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}}}],\"label\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"10L\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Semibold'\"}}}},\"selector\":{\"id\":\"default\"}}],\"spacing\":[{\"properties\":{\"verticalSpacing\":{\"expr\":{\"Literal\":{\"Value\":\"4L\"}}}},\"selector\":{\"id\":\"default\"}}],\"value\":[{\"properties\":{\"fontSize\":{\"expr\":{\"Literal\":{\"Value\":\"20L\"}}},\"fontFamily\":{\"expr\":{\"Literal\":{\"Value\":\"'Segoe UI Semibold'\"}}}},\"selector\":{\"id\":\"default\"}}],\"padding\":[{\"properties\":{\"paddingSelection\":{\"expr\":{\"Literal\":{\"Value\":\"'Custom'\"}}},\"topMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}},\"leftMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}},\"rightMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}},\"bottomMargin\":{\"expr\":{\"Literal\":{\"Value\":\"12L\"}}}},\"selector\":{\"id\":\"default\"}}]},\"vcObjects\":{\"padding\":[{\"properties\":{\"top\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"bottom\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"left\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}},\"right\":{\"expr\":{\"Literal\":{\"Value\":\"0L\"}}}}}],\"background\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}],\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Total Sales Quantity'\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 92.00,
+          "width": 580.00,
+          "x": 60.00,
+          "y": 72.00,
+          "z": 9000.00
+        },
+        {
+          "config": "{\"name\":\"b563c4a54b71e367dfe3\",\"layouts\":[{\"id\":0,\"position\":{\"width\":284,\"height\":240,\"x\":936,\"y\":172,\"tabOrder\":1000,\"z\":1000}}],\"singleVisual\":{\"visualType\":\"azureMap\",\"projections\":{\"Size\":[{\"queryRef\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\"}],\"Category\":[{\"queryRef\":\"AdventureWorks_Territories.Region\",\"active\":true}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AdventureWorks_Sales_2016\",\"Type\":0},{\"Name\":\"a1\",\"Entity\":\"AdventureWorks_Territories\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0},\"Name\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\",\"NativeReferenceName\":\"Sum of OrderQuantity\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a1\"}},\"Property\":\"Region\"},\"Name\":\"AdventureWorks_Territories.Region\",\"NativeReferenceName\":\"Region\"}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Sales Quantity by Region'\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 240.00,
+          "width": 284.00,
+          "x": 936.00,
+          "y": 172.00,
+          "z": 1000.00
+        },
+        {
+          "config": "{\"name\":\"e85666f88635723348d6\",\"layouts\":[{\"id\":0,\"position\":{\"width\":381,\"height\":240,\"x\":60,\"y\":420,\"tabOrder\":6000,\"z\":6000}}],\"singleVisual\":{\"visualType\":\"columnChart\",\"projections\":{\"Category\":[{\"queryRef\":\"AdventureWorks_Products.ProductName\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AdventureWorks_Products\",\"Type\":0},{\"Name\":\"a1\",\"Entity\":\"AdventureWorks_Sales_2016\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"ProductName\"},\"Name\":\"AdventureWorks_Products.ProductName\",\"NativeReferenceName\":\"ProductName\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a1\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0},\"Name\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\",\"NativeReferenceName\":\"Sum of OrderQuantity\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a1\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}],\"labels\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Sales Quantity by Product'\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 240.00,
+          "width": 381.00,
+          "x": 60.00,
+          "y": 420.00,
+          "z": 6000.00
+        },
+        {
+          "config": "{\"name\":\"f2586dd7751cbd2917be\",\"layouts\":[{\"id\":0,\"position\":{\"width\":284,\"height\":240,\"x\":352,\"y\":172,\"tabOrder\":5000,\"z\":5000}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Category\":[{\"queryRef\":\"AdventureWorks_Product_Categories.CategoryName\",\"active\":true}],\"Y\":[{\"queryRef\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"a\",\"Entity\":\"AdventureWorks_Product_Categories\",\"Type\":0},{\"Name\":\"a1\",\"Entity\":\"AdventureWorks_Sales_2016\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a\"}},\"Property\":\"CategoryName\"},\"Name\":\"AdventureWorks_Product_Categories.CategoryName\",\"NativeReferenceName\":\"CategoryName\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a1\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0},\"Name\":\"Sum(AdventureWorks_Sales_2016.OrderQuantity)\",\"NativeReferenceName\":\"Sum of OrderQuantity\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"a1\"}},\"Property\":\"OrderQuantity\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"objects\":{\"dataPoint\":[{\"properties\":{\"fill\":{\"solid\":{\"color\":{\"expr\":{\"ThemeDataColor\":{\"ColorId\":2,\"Percent\":0}}}}}}}]},\"vcObjects\":{\"title\":[{\"properties\":{\"show\":{\"expr\":{\"Literal\":{\"Value\":\"true\"}}},\"text\":{\"expr\":{\"Literal\":{\"Value\":\"'Sales Quantity by Product Category'\"}}}}}]}},\"howCreated\":\"Copilot\"}",
+          "filters": "[]",
+          "height": 240.00,
+          "width": 284.00,
+          "x": 352.00,
+          "y": 172.00,
+          "z": 5000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

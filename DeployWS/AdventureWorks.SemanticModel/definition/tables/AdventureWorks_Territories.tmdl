@@ -1,0 +1,54 @@
+table AdventureWorks_Territories
+	lineageTag: fe041a56-0ec9-408e-be20-fd24ca427035
+	sourceLineageTag: [dbo].[AdventureWorks_Territories]
+
+	column SalesTerritoryKey
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: 253e98ce-7b44-4bae-be69-685ede856476
+		sourceLineageTag: SalesTerritoryKey
+		summarizeBy: count
+		sourceColumn: SalesTerritoryKey
+
+		annotation SummarizationSetBy = Automatic
+
+	column Region
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 1a8492f3-e179-41fe-9d4f-91cfbf255aa9
+		sourceLineageTag: Region
+		summarizeBy: none
+		sourceColumn: Region
+
+		annotation SummarizationSetBy = Automatic
+
+	column Country
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 562b5373-95de-420a-866a-d1cdc262a66f
+		sourceLineageTag: Country
+		summarizeBy: none
+		sourceColumn: Country
+
+		annotation SummarizationSetBy = Automatic
+
+	column Continent
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: cbae829b-c718-451c-b649-2c8e7f59c071
+		sourceLineageTag: Continent
+		summarizeBy: none
+		sourceColumn: Continent
+
+		annotation SummarizationSetBy = Automatic
+
+	partition AdventureWorks_Territories = entity
+		mode: directLake
+		source
+			entityName: AdventureWorks_Territories
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+

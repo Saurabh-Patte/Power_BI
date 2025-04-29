@@ -1,0 +1,98 @@
+table AdventureWorks_Sales_2017
+	lineageTag: b374738f-cc4d-42e8-a608-3bd43a14b376
+	sourceLineageTag: [dbo].[AdventureWorks_Sales_2017]
+
+	column OrderDate
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 54819638-30fe-4db9-9b5d-afd7d557a3b4
+		sourceLineageTag: OrderDate
+		summarizeBy: none
+		sourceColumn: OrderDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column StockDate
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: f665bc32-9001-4a69-a2ab-02d96f85fbb5
+		sourceLineageTag: StockDate
+		summarizeBy: none
+		sourceColumn: StockDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column OrderNumber
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 5011ae47-6ad9-45a0-a2c1-6dcc8fcd475f
+		sourceLineageTag: OrderNumber
+		summarizeBy: none
+		sourceColumn: OrderNumber
+
+		annotation SummarizationSetBy = Automatic
+
+	column ProductKey
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: f3b6d18d-22d6-4675-9de0-b08481ce969d
+		sourceLineageTag: ProductKey
+		summarizeBy: count
+		sourceColumn: ProductKey
+
+		annotation SummarizationSetBy = Automatic
+
+	column CustomerKey
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: 2d96ba36-08d1-40f5-8d04-83e0a00c2ac5
+		sourceLineageTag: CustomerKey
+		summarizeBy: count
+		sourceColumn: CustomerKey
+
+		annotation SummarizationSetBy = Automatic
+
+	column TerritoryKey
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: 752ed909-1c3f-45cf-8b17-af15a9a97c3a
+		sourceLineageTag: TerritoryKey
+		summarizeBy: count
+		sourceColumn: TerritoryKey
+
+		annotation SummarizationSetBy = Automatic
+
+	column OrderLineItem
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: 1a9c82ab-16d3-415e-b258-c42a4e378184
+		sourceLineageTag: OrderLineItem
+		summarizeBy: sum
+		sourceColumn: OrderLineItem
+
+		annotation SummarizationSetBy = Automatic
+
+	column OrderQuantity
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: adda3400-af6f-4a4a-a421-6ec1116e3c8b
+		sourceLineageTag: OrderQuantity
+		summarizeBy: sum
+		sourceColumn: OrderQuantity
+
+		annotation SummarizationSetBy = Automatic
+
+	partition AdventureWorks_Sales_2017 = entity
+		mode: directLake
+		source
+			entityName: AdventureWorks_Sales_2017
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+

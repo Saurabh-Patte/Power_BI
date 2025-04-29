@@ -1,0 +1,145 @@
+table AdventureWorks_Customers
+	lineageTag: 03e472e1-cc38-483d-a450-2cae80f81b8f
+	sourceLineageTag: [dbo].[AdventureWorks_Customers]
+
+	column CustomerKey
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: 2fc853ef-d2af-445b-b5e7-3eb749b85326
+		sourceLineageTag: CustomerKey
+		summarizeBy: none
+		sourceColumn: CustomerKey
+
+		annotation SummarizationSetBy = Automatic
+
+	column Prefix
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 7dd46089-b091-4d6e-b84f-10e54c436e85
+		sourceLineageTag: Prefix
+		summarizeBy: none
+		sourceColumn: Prefix
+
+		annotation SummarizationSetBy = Automatic
+
+	column FirstName
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: af701eba-5aa6-4f05-b2e8-8049f1330872
+		sourceLineageTag: FirstName
+		summarizeBy: none
+		sourceColumn: FirstName
+
+		annotation SummarizationSetBy = Automatic
+
+	column LastName
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: dc702279-f327-4677-b82c-fd848bde0eac
+		sourceLineageTag: LastName
+		summarizeBy: none
+		sourceColumn: LastName
+
+		annotation SummarizationSetBy = Automatic
+
+	column BirthDate
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 466d6c15-26eb-4beb-8a82-4c9a73f7941f
+		sourceLineageTag: BirthDate
+		summarizeBy: none
+		sourceColumn: BirthDate
+
+		annotation SummarizationSetBy = Automatic
+
+	column MaritalStatus
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 84e4c009-9c3f-4264-93c5-272924f1ee45
+		sourceLineageTag: MaritalStatus
+		summarizeBy: none
+		sourceColumn: MaritalStatus
+
+		annotation SummarizationSetBy = Automatic
+
+	column Gender
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 48f35bcf-7355-4b5f-a748-b024989a3f98
+		sourceLineageTag: Gender
+		summarizeBy: none
+		sourceColumn: Gender
+
+		annotation SummarizationSetBy = Automatic
+
+	column EmailAddress
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 8791dde2-0904-48bb-82ef-8b96997d1833
+		sourceLineageTag: EmailAddress
+		summarizeBy: none
+		sourceColumn: EmailAddress
+
+		annotation SummarizationSetBy = Automatic
+
+	column AnnualIncome
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: d163d4cb-333e-4e6d-b672-b956ede52016
+		sourceLineageTag: AnnualIncome
+		summarizeBy: none
+		sourceColumn: AnnualIncome
+
+		annotation SummarizationSetBy = Automatic
+
+	column TotalChildren
+		dataType: int64
+		formatString: 0
+		sourceProviderType: bigint
+		lineageTag: f6ae06ad-d985-4945-a29b-9710dcf4129d
+		sourceLineageTag: TotalChildren
+		summarizeBy: sum
+		sourceColumn: TotalChildren
+
+		annotation SummarizationSetBy = Automatic
+
+	column EducationLevel
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 8ad8b457-6250-4a89-a0ae-993a063774ca
+		sourceLineageTag: EducationLevel
+		summarizeBy: none
+		sourceColumn: EducationLevel
+
+		annotation SummarizationSetBy = Automatic
+
+	column Occupation
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 206198ae-2dea-4ff0-a739-8887fd36daa0
+		sourceLineageTag: Occupation
+		summarizeBy: none
+		sourceColumn: Occupation
+
+		annotation SummarizationSetBy = Automatic
+
+	column HomeOwner
+		dataType: string
+		sourceProviderType: varchar(8000)
+		lineageTag: 294c7eeb-b750-4586-83fe-f0a4fc5a70c3
+		sourceLineageTag: HomeOwner
+		summarizeBy: none
+		sourceColumn: HomeOwner
+
+		annotation SummarizationSetBy = Automatic
+
+	partition AdventureWorks_Customers = entity
+		mode: directLake
+		source
+			entityName: AdventureWorks_Customers
+			schemaName: dbo
+			expressionSource: DatabaseQuery
+
+	annotation PBI_ResultType = Table
+
