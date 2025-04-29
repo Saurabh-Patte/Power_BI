@@ -1,0 +1,31 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {},
+  "name": "Test_Git_Int",
+  "queryGroups": [],
+  "documentLocale": "en-GB",
+  "queriesMetadata": {
+    "Query": {
+      "queryId": "75f84868-dab7-4e05-8afa-a4e35d381f68",
+      "queryName": "Query"
+    },
+    "DefaultDestination": {
+      "queryId": "816675af-6bc1-4cac-ae07-4ad96b09afb7",
+      "queryName": "DefaultDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "https://raw.githubusercontent.com/Saurabh-Patte/Fabric-Data-Engineer/refs/heads/main/AdventureWorks_Calendar.csv",
+      "kind": "Web",
+      "connectionId": "{\"ClusterId\":\"494d148f-d1b6-489e-8a9c-42b01a3fda29\",\"DatasourceId\":\"e6d1385f-52ad-42c3-8abc-ea876428ab0e\"}"
+    },
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"494d148f-d1b6-489e-8a9c-42b01a3fda29\",\"DatasourceId\":\"fe9e9f21-188f-456e-bb6d-7bd7924bff0e\"}"
+    }
+  ]
+}
