@@ -1,0 +1,20 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {},
+  "name": "DataFlow",
+  "queryGroups": [],
+  "documentLocale": "en-GB",
+  "queriesMetadata": {
+    "Dataflow 1": {
+      "queryId": "b1713184-370c-474c-80d0-a47ad1f26d0d",
+      "queryName": "Dataflow 1"
+    }
+  },
+  "connections": [
+    {
+      "path": "PowerPlatformDataflows",
+      "kind": "PowerPlatformDataflows",
+      "connectionId": "{\"ClusterId\":\"5576ab7e-ba9f-4081-80c9-a3a18e6bb05c\",\"DatasourceId\":\"ef2b8888-6d82-4a6e-8362-3e1f9c293e46\"}"
+    }
+  ]
+}
