@@ -1,0 +1,47 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {},
+  "name": "Adventure_Works_DFG2",
+  "queryGroups": [],
+  "documentLocale": "en-GB",
+  "queriesMetadata": {
+    "AdventureWorks_Calendar": {
+      "queryId": "82f1fe46-5d89-43ec-8e73-b3d89303c036",
+      "queryName": "AdventureWorks_Calendar"
+    },
+    "AdventureWorks_Product_Categories": {
+      "queryId": "92f03579-eab6-4f3d-886b-6ea9dae7607d",
+      "queryName": "AdventureWorks_Product_Categories"
+    },
+    "AdventureWorks_Product_Subcategories": {
+      "queryId": "d0e9ca02-2b79-45df-bf49-e6e9bee9fd05",
+      "queryName": "AdventureWorks_Product_Subcategories"
+    },
+    "AdventureWorks_Products": {
+      "queryId": "bde169f8-1383-4805-abb6-d508ff02f6cf",
+      "queryName": "AdventureWorks_Products"
+    }
+  },
+  "connections": [
+    {
+      "path": "https://raw.githubusercontent.com/Saurabh-Patte/Fabric-Data-Engineer/refs/heads/main/AdventureWorks_Calendar.csv",
+      "kind": "Web",
+      "connectionId": "{\"ClusterId\":\"5576ab7e-ba9f-4081-80c9-a3a18e6bb05c\",\"DatasourceId\":\"f23c3eb8-98fc-4100-9855-a0f6e3caf360\"}"
+    },
+    {
+      "path": "https://raw.githubusercontent.com/Saurabh-Patte/Fabric-Data-Engineer/refs/heads/main/AdventureWorks_Product_Categories.csv",
+      "kind": "Web",
+      "connectionId": "{\"ClusterId\":\"5576ab7e-ba9f-4081-80c9-a3a18e6bb05c\",\"DatasourceId\":\"0c412b37-7bbd-40a9-8e7d-7fcd3c2d03e3\"}"
+    },
+    {
+      "path": "https://raw.githubusercontent.com/Saurabh-Patte/Fabric-Data-Engineer/refs/heads/main/AdventureWorks_Product_Subcategories.csv",
+      "kind": "Web",
+      "connectionId": "{\"ClusterId\":\"5576ab7e-ba9f-4081-80c9-a3a18e6bb05c\",\"DatasourceId\":\"53a6af96-0054-45bb-a586-fff3b97d0c53\"}"
+    },
+    {
+      "path": "https://raw.githubusercontent.com/Saurabh-Patte/Fabric-Data-Engineer/refs/heads/main/AdventureWorks_Products.csv",
+      "kind": "Web",
+      "connectionId": "{\"ClusterId\":\"5576ab7e-ba9f-4081-80c9-a3a18e6bb05c\",\"DatasourceId\":\"01eef6de-e937-4840-8e7b-242c5a1123f4\"}"
+    }
+  ]
+}
