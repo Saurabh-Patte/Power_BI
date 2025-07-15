@@ -7,19 +7,23 @@
   "queriesMetadata": {
     "AdventureWorks_Calendar": {
       "queryId": "82f1fe46-5d89-43ec-8e73-b3d89303c036",
-      "queryName": "AdventureWorks_Calendar"
+      "queryName": "AdventureWorks_Calendar",
+      "loadEnabled": false
     },
     "AdventureWorks_Product_Categories": {
       "queryId": "92f03579-eab6-4f3d-886b-6ea9dae7607d",
-      "queryName": "AdventureWorks_Product_Categories"
+      "queryName": "AdventureWorks_Product_Categories",
+      "loadEnabled": false
     },
     "AdventureWorks_Product_Subcategories": {
       "queryId": "d0e9ca02-2b79-45df-bf49-e6e9bee9fd05",
-      "queryName": "AdventureWorks_Product_Subcategories"
+      "queryName": "AdventureWorks_Product_Subcategories",
+      "loadEnabled": false
     },
     "AdventureWorks_Products": {
       "queryId": "bde169f8-1383-4805-abb6-d508ff02f6cf",
-      "queryName": "AdventureWorks_Products"
+      "queryName": "AdventureWorks_Products",
+      "loadEnabled": false
     }
   },
   "connections": [
