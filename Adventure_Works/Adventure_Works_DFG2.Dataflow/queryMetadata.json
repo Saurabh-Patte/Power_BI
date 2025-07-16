@@ -24,6 +24,18 @@
       "queryId": "bde169f8-1383-4805-abb6-d508ff02f6cf",
       "queryName": "AdventureWorks_Products",
       "loadEnabled": false
+    },
+    "NavigationQuery": {
+      "queryId": "9215c6ec-e676-40a8-8ecf-860f3ee9a493",
+      "queryName": "NavigationQuery",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "DefaultDestination": {
+      "queryId": "126cf0b5-cde0-4da7-834d-5dfa04c7edbc",
+      "queryName": "DefaultDestination",
+      "isHidden": true,
+      "loadEnabled": false
     }
   },
   "connections": [
@@ -46,6 +58,11 @@
       "path": "https://raw.githubusercontent.com/Saurabh-Patte/Fabric-Data-Engineer/refs/heads/main/AdventureWorks_Products.csv",
       "kind": "Web",
       "connectionId": "{\"ClusterId\":\"5576ab7e-ba9f-4081-80c9-a3a18e6bb05c\",\"DatasourceId\":\"01eef6de-e937-4840-8e7b-242c5a1123f4\"}"
+    },
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"5576ab7e-ba9f-4081-80c9-a3a18e6bb05c\",\"DatasourceId\":\"a4d97b9d-57d8-419b-9803-a4f847e25805\"}"
     }
   ]
 }
