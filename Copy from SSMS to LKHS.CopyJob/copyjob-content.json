@@ -1,0 +1,251 @@
+{
+  "properties": {
+    "jobMode": "Batch",
+    "source": {
+      "type": "SqlServerTable",
+      "connectionSettings": {
+        "type": "SqlServer",
+        "typeProperties": {
+          "database": "Car_Sales_Dashboard"
+        },
+        "externalReferences": {
+          "connection": "80ce2f5a-65e1-4a6c-a0f8-4c84526306aa"
+        }
+      }
+    },
+    "destination": {
+      "type": "LakehouseTable",
+      "connectionSettings": {
+        "type": "Lakehouse",
+        "typeProperties": {
+          "workspaceId": "00000000-0000-0000-0000-000000000000",
+          "artifactId": "30c914bf-e976-813a-4b16-2183841c8d82",
+          "rootFolder": "Tables"
+        }
+      }
+    },
+    "policy": {
+      "timeout": "0.12:00:00"
+    }
+  },
+  "activities": [
+    {
+      "id": "f53e6d3f-0ea2-4e61-bbed-eb4cfd1f535e",
+      "properties": {
+        "source": {
+          "datasetSettings": {
+            "schema": "dbo",
+            "table": "car_data"
+          }
+        },
+        "destination": {
+          "partitionOption": "None",
+          "writeBehavior": "Overwrite",
+          "datasetSettings": {
+            "table": "dbo_car_data"
+          }
+        },
+        "enableStaging": false,
+        "translator": {
+          "type": "TabularTranslator",
+          "mappings": [
+            {
+              "source": {
+                "name": "Car_id",
+                "type": "String",
+                "physicalType": "nvarchar",
+                "length": "255"
+              },
+              "destination": {
+                "name": "Car_id",
+                "physicalType": "string"
+              }
+            },
+            {
+              "source": {
+                "name": "Date",
+                "type": "DateTime",
+                "physicalType": "datetime"
+              },
+              "destination": {
+                "name": "Date",
+                "physicalType": "timestamp"
+              }
+            },
+            {
+              "source": {
+                "name": "Customer Name",
+                "type": "String",
+                "physicalType": "nvarchar",
+                "length": "255"
+              },
+              "destination": {
+                "name": "Customer Name",
+                "physicalType": "string"
+              }
+            },
+            {
+              "source": {
+                "name": "Gender",
+                "type": "String",
+                "physicalType": "nvarchar",
+                "length": "255"
+              },
+              "destination": {
+                "name": "Gender",
+                "physicalType": "string"
+              }
+            },
+            {
+              "source": {
+                "name": "Annual Income",
+                "type": "Double",
+                "physicalType": "float"
+              },
+              "destination": {
+                "name": "Annual Income",
+                "physicalType": "double"
+              }
+            },
+            {
+              "source": {
+                "name": "Dealer_Name",
+                "type": "String",
+                "physicalType": "nvarchar",
+                "length": "255"
+              },
+              "destination": {
+                "name": "Dealer_Name",
+                "physicalType": "string"
+              }
+            },
+            {
+              "source": {
+                "name": "Company",
+                "type": "String",
+                "physicalType": "nvarchar",
+                "length": "255"
+              },
+              "destination": {
+                "name": "Company",
+                "physicalType": "string"
+              }
+            },
+            {
+              "source": {
+                "name": "Model",
+                "type": "String",
+                "physicalType": "nvarchar",
+                "length": "255"
+              },
+              "destination": {
+                "name": "Model",
+                "physicalType": "string"
+              }
+            },
+            {
+              "source": {
+                "name": "Engine",
+                "type": "String",
+                "physicalType": "nvarchar",
+                "length": "255"
+              },
+              "destination": {
+                "name": "Engine",
+                "physicalType": "string"
+              }
+            },
+            {
+              "source": {
+                "name": "Transmission",
+                "type": "String",
+                "physicalType": "nvarchar",
+                "length": "255"
+              },
+              "destination": {
+                "name": "Transmission",
+                "physicalType": "string"
+              }
+            },
+            {
+              "source": {
+                "name": "Color",
+                "type": "String",
+                "physicalType": "nvarchar",
+                "length": "255"
+              },
+              "destination": {
+                "name": "Color",
+                "physicalType": "string"
+              }
+            },
+            {
+              "source": {
+                "name": "Price ($)",
+                "type": "Double",
+                "physicalType": "float"
+              },
+              "destination": {
+                "name": "Price ($)",
+                "physicalType": "double"
+              }
+            },
+            {
+              "source": {
+                "name": "Dealer_No ",
+                "type": "String",
+                "physicalType": "nvarchar",
+                "length": "255"
+              },
+              "destination": {
+                "name": "Dealer_No ",
+                "physicalType": "string"
+              }
+            },
+            {
+              "source": {
+                "name": "Body Style",
+                "type": "String",
+                "physicalType": "nvarchar",
+                "length": "255"
+              },
+              "destination": {
+                "name": "Body Style",
+                "physicalType": "string"
+              }
+            },
+            {
+              "source": {
+                "name": "Phone",
+                "type": "Double",
+                "physicalType": "float"
+              },
+              "destination": {
+                "name": "Phone",
+                "physicalType": "double"
+              }
+            },
+            {
+              "source": {
+                "name": "Dealer_Region",
+                "type": "String",
+                "physicalType": "nvarchar",
+                "length": "255"
+              },
+              "destination": {
+                "name": "Dealer_Region",
+                "physicalType": "string"
+              }
+            }
+          ]
+        },
+        "typeConversionSettings": {
+          "typeConversion": {
+            "allowDataTruncation": true,
+            "treatBooleanAsNumber": false
+          }
+        }
+      }
+    }
+  ]
+}

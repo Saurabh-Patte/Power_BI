@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "CopyJob",
+    "displayName": "Copy from SSMS to LKHS"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "16a9c96c-ec0f-8e97-4041-741f071238c6"
+  }
+}

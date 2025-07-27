@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Dataflow",
+    "displayName": "SQLToLKHS"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "e622e957-9dbd-99b1-4788-612e3ad90112"
+  }
+}
