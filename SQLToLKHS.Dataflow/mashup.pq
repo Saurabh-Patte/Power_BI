@@ -6,6 +6,7 @@ shared EMEA_DRT_FW10 = let
   #"Navigation 1" = Source{[Schema = "dbo", Item = "EMEA_DRT_FW10"]}[Data]
 in
   #"Navigation 1";
+[BindToDefaultDestination = true]
 shared Universal_TD_Data = let
   Source = Sql.Database("saurabh", "My_Analytics"),
   #"Navigation 1" = Source{[Schema = "dbo", Item = "Universal_TD_Data"]}[Data]
