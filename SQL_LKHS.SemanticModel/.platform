@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "SQL_LKHS"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "c1fae71c-8f80-b310-4d90-da80d9c3753b"
+  }
+}
